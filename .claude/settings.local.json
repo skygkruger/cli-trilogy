@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(node:*)",
+      "Bash(npm link)",
+      "Bash(yeet --help:*)",
+      "Bash(yeet --version:*)",
+      "Bash(yeet:*)",
+      "Bash(roast --help:*)",
+      "Bash(roast:*)",
+      "Bash(alibi --help:*)",
+      "Bash(alibi --dry:*)",
+      "Bash(alibi:*)"
+    ]
+  }
+}

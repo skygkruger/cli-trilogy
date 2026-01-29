@@ -1,16 +1,16 @@
 {
-  "name": "@veridian/yeet",
+  "name": "@run-veridian/yeet",
   "version": "1.0.0",
-  "description": "Theatrically yeet node_modules into the mass_energy().",
+  "description": "Theatrically yeet node_modules into the void.",
   "license": "MIT",
   "author": "VERIDIAN (https://veridiantools.dev)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/veridian-tools/yeet"
+    "url": "https://github.com/skygkruger/cli-trilogy"
   },
-  "homepage": "https://github.com/veridian-tools/yeet#readme",
+  "homepage": "https://github.com/skygkruger/cli-trilogy#yeet",
   "bugs": {
-    "url": "https://github.com/veridian-tools/yeet/issues"
+    "url": "https://github.com/skygkruger/cli-trilogy/issues"
   },
   "keywords": [
     "cli",

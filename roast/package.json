@@ -1,16 +1,16 @@
 {
-  "name": "@veridian/roast",
+  "name": "@run-veridian/roast",
   "version": "1.0.0",
   "description": "Get your code roasted by an AI.",
   "license": "MIT",
   "author": "VERIDIAN (https://veridiantools.dev)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/veridian-tools/roast"
+    "url": "https://github.com/skygkruger/cli-trilogy"
   },
-  "homepage": "https://github.com/veridian-tools/roast#readme",
+  "homepage": "https://github.com/skygkruger/cli-trilogy#roast",
   "bugs": {
-    "url": "https://github.com/veridian-tools/roast/issues"
+    "url": "https://github.com/skygkruger/cli-trilogy/issues"
   },
   "keywords": [
     "cli",

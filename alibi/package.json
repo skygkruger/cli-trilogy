@@ -1,16 +1,16 @@
 {
-  "name": "@veridian/alibi",
+  "name": "@run-veridian/alibi",
   "version": "1.0.0",
   "description": "Generate convincing git history for your 'sick day'.",
   "license": "MIT",
   "author": "VERIDIAN (https://veridiantools.dev)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/veridian-tools/alibi"
+    "url": "https://github.com/skygkruger/cli-trilogy"
   },
-  "homepage": "https://github.com/veridian-tools/alibi#readme",
+  "homepage": "https://github.com/skygkruger/cli-trilogy#alibi",
   "bugs": {
-    "url": "https://github.com/veridian-tools/alibi/issues"
+    "url": "https://github.com/skygkruger/cli-trilogy/issues"
   },
   "keywords": [
     "cli",

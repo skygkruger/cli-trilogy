@@ -23,7 +23,7 @@ From [VERIDIAN](https://veridiantools.dev) — ethical developer tools with pers
 Zero dependencies. Pure Node.js. Maximum satisfaction.
 
 ```bash
-npx @veridian/yeet
+npx @run-veridian/yeet
 ```
 
 ### Usage
@@ -59,7 +59,7 @@ yeet --dry                # Preview without deleting
 Brutally honest code review with adjustable savagery. Powered by Claude.
 
 ```bash
-npx @veridian/roast src/index.ts
+npx @run-veridian/roast src/index.ts
 ```
 
 ### Usage
@@ -109,7 +109,7 @@ roast src/ --yolo             # Roast entire directory
 Create backdated commits that look totally legit. For educational purposes only. Obviously.
 
 ```bash
-npx @veridian/alibi
+npx @run-veridian/alibi
 ```
 
 ### Usage
@@ -158,15 +158,15 @@ alibi --dry                   # Preview without committing
 ### Run directly with npx
 
 ```bash
-npx @veridian/yeet
-npx @veridian/roast src/index.ts
-npx @veridian/alibi --dry
+npx @run-veridian/yeet
+npx @run-veridian/roast src/index.ts
+npx @run-veridian/alibi --dry
 ```
 
 ### Install globally
 
 ```bash
-npm install -g @veridian/yeet @veridian/roast @veridian/alibi
+npm install -g @run-veridian/yeet @run-veridian/roast @run-veridian/alibi
 ```
 
 ### Requirements
