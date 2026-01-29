@@ -348,8 +348,8 @@ function createCommit(commit, index) {
   const content = `${commit.message}\n\nTimestamp: ${commit.date.toISOString()}\n`;
   writeFileSync(filename, content);
 
-  // Stage the file
-  execSync(`git add "${filename}"`, { stdio: 'ignore' });
+  // Stage the file (force add in case .alibi is gitignored)
+  execSync('git add -f .alibi', { stdio: 'ignore' });
 
   // Format date for git
   const gitDate = commit.date.toISOString();
@@ -361,7 +361,9 @@ function createCommit(commit, index) {
     GIT_COMMITTER_DATE: gitDate,
   };
 
-  execSync(`git commit -m "${commit.message}"`, {
+  // Escape quotes in commit message
+  const safeMessage = commit.message.replace(/"/g, '\\"');
+  execSync(`git commit -m "${safeMessage}"`, {
     stdio: 'ignore',
     env
   });
