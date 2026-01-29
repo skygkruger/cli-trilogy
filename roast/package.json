@@ -1,0 +1,43 @@
+{
+  "name": "@veridian/roast",
+  "version": "1.0.0",
+  "description": "Get your code roasted by an AI.",
+  "license": "MIT",
+  "author": "VERIDIAN (https://veridiantools.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veridian-tools/roast"
+  },
+  "homepage": "https://github.com/veridian-tools/roast#readme",
+  "bugs": {
+    "url": "https://github.com/veridian-tools/roast/issues"
+  },
+  "keywords": [
+    "cli",
+    "code-review",
+    "ai",
+    "roast",
+    "claude",
+    "developer-tools",
+    "humor"
+  ],
+  "type": "module",
+  "bin": {
+    "roast": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  }
+}

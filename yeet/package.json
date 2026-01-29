@@ -1,0 +1,37 @@
+{
+  "name": "@veridian/yeet",
+  "version": "1.0.0",
+  "description": "Theatrically yeet node_modules into the mass_energy().",
+  "license": "MIT",
+  "author": "VERIDIAN (https://veridiantools.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veridian-tools/yeet"
+  },
+  "homepage": "https://github.com/veridian-tools/yeet#readme",
+  "bugs": {
+    "url": "https://github.com/veridian-tools/yeet/issues"
+  },
+  "keywords": [
+    "cli",
+    "node-modules",
+    "cleanup",
+    "disk-space",
+    "developer-tools",
+    "humor"
+  ],
+  "type": "module",
+  "bin": {
+    "yeet": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}

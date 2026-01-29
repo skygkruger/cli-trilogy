@@ -1,0 +1,36 @@
+{
+  "name": "@veridian/alibi",
+  "version": "1.0.0",
+  "description": "Generate convincing git history for your 'sick day'.",
+  "license": "MIT",
+  "author": "VERIDIAN (https://veridiantools.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veridian-tools/alibi"
+  },
+  "homepage": "https://github.com/veridian-tools/alibi#readme",
+  "bugs": {
+    "url": "https://github.com/veridian-tools/alibi/issues"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "commits",
+    "developer-tools",
+    "humor"
+  ],
+  "type": "module",
+  "bin": {
+    "alibi": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}
